@@ -1,2 +1,11 @@
 tensorflow
 matplotlib
+torch
+dotenv
+requests
+selenium
+pandas
+numpy
+sklearn
+bs4
+seaborn
