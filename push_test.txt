@@ -1,4 +1,14 @@
-tttsdfsdfsdfsdfsdfsdfsd
+branch가 main이 아니면 원격 Github에서 Pull Requestㄹ르 해줘야 merge가 됨
+그리고 바뀐 부분을 가져오려면 branch를 main으로 바꾸고 Pull 을 해야 됨
 
 
-zfzs
+git branch                  브랜치 확인
+git checkout '''            브랜치 변경
+git checkout -b '''         새로운 브랜치를 만들고 브랜치 변경
+
+git add .                   변경점 가져오기
+git commit -m "aaa"         커밋하기 메시지작성
+git push origin '''         origin에 푸시할거야 '''인 브랜치를
+
+git checkout main           브랜치를 main으로 바꾸고
+git pull origin main        업데이트를 불러온다
